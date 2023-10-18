@@ -1,0 +1,53 @@
+colors:
+  primary:
+    background: "#1e2127"
+    foreground: "#D8DEE9"
+    opacity: 0.8
+
+font:
+  normal:
+    family: "CaskaydiaCove Nerd Font Mono"
+    style: Regular
+  bold:
+    family: "CaskaydiaCove Nerd Font Mono"
+    style: Bold
+  italic:
+    family: "CaskaydiaCove Nerd Font Mono"
+    style: Italic
+  bold_italic:
+    family: "CaskaydiaCove Nerd Font Mono"
+    style: Bold Italic
+  size: 15.0
+
+window:    
+  padding:
+    x: 10
+    y: 10
+  dimensions:
+   columns: 80
+   lines: 20
+  startup_mode: Windowed
+  # Values for `startup_mode`:
+  #   - Windowed
+  #   - Maximized
+  #   - Fullscreen
+
+draw_bold_text_with_bright_colors: true
+
+live_config_reload: true
+
+scrolling:
+  history: 10000
+  multiplier: 10
+
+cursor:
+  style:
+    shape: Underline
+    blinking: on
+
+# Windows
+working_directory: "C:\\Users\\FG\\Desktop"
+
+
+shell:
+ program: pwsh
